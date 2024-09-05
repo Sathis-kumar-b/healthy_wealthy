@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+   
+    margin: 0;
+    padding: 0;
+    background-image:url(asset/cccbg.jpeg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+    background-color: #8b4513;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+.container {
+    
+    max-width: 650px;
+    max-height: fit-content;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: burlywood;
+    padding: 40px;
+    box-shadow: 10px 10px 15px #a37859;
+    border-radius: 20px;
+    
+}
+h1 {
+    color: #5a3e20;
+}
+.ingredients, .instructions {
+    margin: 20px 0;
+}
+.ingredients ul, .instructions ol {
+    margin: 10px 0;
+}
+footer {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 450px) {
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }

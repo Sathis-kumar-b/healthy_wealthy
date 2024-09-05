@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    text-shadow: black;
+    box-shadow: 0 0 5px 5px #acabab;
+    text-shadow:0 0 3px 3px #121010;
+}
+body {
+    text-align: center;
+    background-image:url(asset/bg.jpeg) ;
+    margin: 10%;
+}
+.a {
+    
+    font: 40px;
+    border-radius: 15px;
+    padding:10%;
+    background-color:burlywood;
+    box-shadow: 0 5px 5px 3px #121010;
+    
+}
+#logo{
+    width: 6%;
+    aspect-ratio:auto;
+    border-radius: 50%;
+    opacity: 80%;
+}
+.values{
+    text-align: left;
+}
+.product{
+    text-align: left;
+}
+.ccc{
+    cursor: pointer;
+    text-decoration: none;
+    color: #121010;
+}
+.ord{
+    cursor: pointer;
+    text-decoration: none;
+    color: #121010;
+}
+.abb{
+    cursor: pointer;
+    text-decoration: none;
+    color: #121010;
+}
+.vcc{
+    cursor: pointer;
+    text-decoration: none;
+    color: #121010;
+}
+.f{
+   border: solid rgb(0, 0, 0);
+   border-radius: 15px;
+   padding-bottom: 50px;
+}
+.ft{
+    font:bolder;
+}
